@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(npx tsx *)",
+      "Bash(node --env-file=.env.local --import=tsx/esm scripts/verify-m1.ts)",
+      "Skill(update-config)",
+      "Bash(npx tsc *)",
+      "Bash(curl -s http://localhost:3001/api/leaderboard)",
+      "Bash(npx -y fx .)",
+      "Bash(python3 -m json.tool)"
+    ]
+  }
+}
